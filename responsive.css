@@ -1,0 +1,185 @@
+@media(max-width:1340px){
+    button{
+        height: 5vw;
+    }
+    .homeContent{
+        margin-top: 2rem;
+    }
+}
+@media(max-width:1096px){
+    button{
+        width: 75vw;
+        height: 6vw;
+    }
+    .homeContent{
+        margin-top: 4rem;
+    }
+}
+@media(max-width:1000px){
+    button{
+        width: 90vw;
+        height: 8vw;
+    }
+    .homeContent{
+        margin-top: 5rem;
+    }
+    .headContent h1{
+        font-size: 5vw;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    
+    .headContent p{
+        font-size: 4vw;
+        color: #fff;
+    }
+
+    .btn{
+        margin-top: 3rem;
+    }
+
+    .footContainer{
+        width: 100%;
+        margin-left: 1rem;
+    }
+    .footLeft h3{
+        font-size: 2rem;
+    }
+    .footLeft p{
+        font-size: 1rem;
+    }
+    .footRight h3{
+        font-size: 2rem;
+    }
+    .footRight p{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:820px){
+    nav{
+        justify-content: space-around;
+    }
+    nav ul{
+        display: none;
+    }
+    .portfolio{
+        display: none;
+    }
+    .ham li a{
+        display: inline-block;
+    }
+
+}
+
+@media(max-width:774px){
+    button{
+        width: 90vw;
+        height: 12vw;
+    }
+}
+
+@media(max-width:700px){
+    .bgnew{
+        width: 100vh;
+    }
+}
+
+
+@media(max-width:605px){
+    .homeContent {
+        margin-top: 1rem;
+    }
+    .headContent {
+        width: 20rem;
+        margin: auto;
+    }
+    .headContent h1 {
+        font-size: 2rem;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    .headContent p {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    button{
+        width: 75vw;
+        height: 16vw;
+    }
+
+    .bgnew{
+        width: 100%;
+    }
+    .section{
+        width: 100%;
+    }
+}
+
+@media(max-width:420px){
+    .homeContent {
+        margin-top: 2rem;
+    }
+    .headContent h1 {
+        font-size: 2.5rem;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    .headContent p {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    .copyright{
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:320px){
+
+    .headContent {
+        width: 15rem;
+        margin: auto;
+    }
+    .homeContent {
+        margin-top: 2rem;
+    }
+    .headContent h1 {
+        font-size: 2rem;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    .headContent p {
+        font-size: 1rem;
+        color: #fff;
+    }
+}
+
+
+
+
+@media(max-width:770px){
+
+    .footLeft{
+        width: 100%;
+    }
+    .footRight{
+        width: 100%;
+    }
+
+
+}
+
+@media(max-width:500px){
+
+.copyright{
+    margin-top:4rem
+}
+
+.footContainer{
+    margin-top:1rem;
+}
+} 
