@@ -106,7 +106,8 @@
     }
     .mainMenu li a:hover {
         background: none;
-        color: rgb(255, 123, 0);
+        /* color: rgb(255, 123, 0); */
+        color: rgb(255, 0, 119);
     }
 
 }
