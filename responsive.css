@@ -1,3 +1,7 @@
+*{
+    transition: 0.5s;
+}
+
 @media(max-width:1340px){
     button{
         height: 5vw;
@@ -73,14 +77,16 @@
         height: 100vh;
         position: fixed;
         top: 0;
-        right: 0;
+        right: 0;    
+        margin-left: -1rem;
         left: 0;
         line-height: 5rem;
         z-index: 10;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(310deg,#6e0085,#ff0080);
+        background: linear-gradient(to right bottom,
+        #001289, #251292, #3a119b, #4d0ea3, #5f0aab, #6a0097, #6e0085, #6f0074, #5b014d, #42082f, #260b18, #000000);
         transition: top 1s ease;
         display: none;
     }
@@ -95,6 +101,7 @@
     }
     .openMenu {
         display: block;
+        margin-top: 2px;
     }
     .mainMenu li a:hover {
         background: none;
@@ -145,10 +152,11 @@
     }
     .logo{
         font-size: 20px;
+        margin-top: 4px;
     }
     button{
         width: 75vw;
-        height: 16vw;
+        height: 20vw;
     }
 
     .bgnew{
