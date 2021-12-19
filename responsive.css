@@ -117,14 +117,19 @@
 }
 
 @media(max-width:774px){
+    .footRight {
+        margin-top: 7rem;
+    }
+    footer{
+        margin-top:10rem;
+    }
+
     button{
         width: 90vw;
         height: 12vw;
     }
 
-    .footRight{
-        margin-top: 5rem;
-    }
+   
     .btn1{
         font-weight: 800;
         margin-left: 0rem;
@@ -135,6 +140,9 @@
 @media(max-width:700px){
     .bgnew{
         width: 100vh;
+    }
+    .footRight{
+        margin-top: 7rem;
     }
 }
 
@@ -190,6 +198,9 @@
         text-align: center;
         font-size: 1rem;
     }
+    footer{
+        margin-top:7rem;
+    }
 }
 
 @media(max-width:320px){
@@ -209,6 +220,9 @@
     .headContent p {
         font-size: 1rem;
         color: #fff;
+    }
+    footer{
+        margin-top:12rem;
     }
 }
 
