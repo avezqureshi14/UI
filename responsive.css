@@ -43,7 +43,7 @@
     }
 
     .footContainer{
-        width: 100%;
+        width: 94%;
         margin-left: 1rem;
     }
     .footLeft h3{
@@ -229,6 +229,6 @@
 }
 
 .footContainer{
-    margin-top:1rem;
+    margin-top:2rem;
 }
 } 
