@@ -74,6 +74,7 @@
         display: inline-block;
     }
     .mainMenu {
+        margin: auto;
         height: 100vh;
         position: fixed;
         top: 0;
@@ -96,8 +97,8 @@
     .mainMenu .closeMenu {
         display: block;
         position: absolute;
-        top: 4rem;
-        right: 6rem;
+        top: 2rem;
+        right: 3.5rem;
     }
     .openMenu {
         display: block;

@@ -18,7 +18,7 @@ resi3.addEventListener('click',close);
 
 function show(){
     mainMenu.style.display = 'flex';
-    mainMenu.style.top = '-10px';
+    mainMenu.style.top = '-20px';
 }
 function close(){
     mainMenu.style.top = '-103%';
