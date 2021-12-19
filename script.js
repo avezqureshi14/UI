@@ -18,9 +18,14 @@ resi3.addEventListener('click',close);
 
 function show(){
     mainMenu.style.display = 'flex';
+    mainMenu.style.opacity = '1';
     mainMenu.style.top = '-20px';
+    mainMenu.style.transition = '1s';
 }
 function close(){
     mainMenu.style.top = '-103%';
+    mainMenu.style.opacity = '0';
+    mainMenu.style.transition = '1s';
+
     
 }

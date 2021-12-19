@@ -104,10 +104,14 @@
         display: block;
         margin-top: 2px;
     }
+   
+    .mainMenu li {
+        background: none;
+        color: rgb(255, 123, 0);
+    }
     .mainMenu li a:hover {
         background: none;
-        /* color: rgb(255, 123, 0); */
-        color: rgb(255, 0, 119);
+        color: rgb(255, 123, 0);
     }
 
 }
