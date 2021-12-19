@@ -69,6 +69,37 @@
     .ham li a{
         display: inline-block;
     }
+    .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        line-height: 5rem;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(310deg,#6e0085,#ff0080);
+        transition: top 1s ease;
+        display: none;
+    }
+    
+
+
+    .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 4rem;
+        right: 6rem;
+    }
+    .openMenu {
+        display: block;
+    }
+    .mainMenu li a:hover {
+        background: none;
+        color: rgb(255, 123, 0);
+    }
 
 }
 
@@ -76,6 +107,15 @@
     button{
         width: 90vw;
         height: 12vw;
+    }
+
+    .footRight{
+        margin-top: 5rem;
+    }
+    .btn1{
+        font-weight: 800;
+        margin-left: 0rem;
+        margin-top: 3rem;
     }
 }
 

@@ -261,12 +261,27 @@ nav a:hover{
 }
 
 
-.ham li a{
+.ham{
     font-size: 2rem;
     margin-top: 0.7rem;
     display: none;
+    cursor: pointer;
+    margin-left: 2rem;
 } 
 
+
+
+.closeMenu{
+    display: none;
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+   
+}
+
+.fa:hover{
+    color: #ffc000;
+}
 
 
 
@@ -454,6 +469,7 @@ footer{
 .footLeft h3{
     margin-bottom: 1rem;
     font-size: 2rem;
+    margin-top: -4.3rem;
 }
 .footLeft p{
     font-size: 1.5rem;
@@ -469,6 +485,7 @@ footer{
 .footRight h3{
     margin-bottom: 1rem;
     font-size: 2rem;
+    margin-top: -4.3rem;
 }
 
 .footRight p{
